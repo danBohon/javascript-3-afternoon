@@ -112,12 +112,6 @@ const numberGroups = ( {a, b, c} ) => {
   }else if (b.length > a.length && b.length > c.length) {
     return b;
   }else return c;
-  // let longest = Math.max(a.length, b.length, c.length)
-  // if (a.length = longest) {
-  //   return a;
-  // }else if (b.length = longest) {
-  //   return b;
-  // } return c;
 } 
 
 
